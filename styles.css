@@ -1,3 +1,4 @@
+/* styles.css content */
 /* Base styles for Sakura-dori Line site */
 body {
     font-family: Arial, sans-serif;
@@ -9,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #E60012; /* 桜通線の赤色 */
+    background-color: #E60012;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
