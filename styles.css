@@ -1,15 +1,46 @@
+/* Base styles for Sakura-dori Line site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
 header {
-    background-color: #E60012; /* 必要に応じて変更 */
+    background-color: #E60012; /* 桜通線の赤色 */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 footer {
-    background-color: #E60012; /* 必要に応じて変更 */
+    text-align: center;
+    background-color: #E60012;
     color: #fff;
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
 
 
