@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おすすめスポット</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>桜通線のおすすめスポット</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="sakura_intro.html">桜通線の紹介</a></li>
+                <li><a href="merits.html">桜通線を使うメリット</a></li>
+                <li><a href="stations.html">主な駅の紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>おすすめスポットを書き込む</h2>
+            <form action="submit_recommendation.php" method="POST">
+                <label for="name">名前（任意）:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="station">おすすめ駅:</label>
+                <input type="text" id="station" name="station" required><br>
+
+                <label for="comment">おすすめ情報:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>みんなのおすすめスポット</h2>
+            <?php
+            // ファイルから投稿データを読み込む
+            $file = 'recommendations.txt';
+            if (file_exists($file)) {
+                $content = nl2br(file_get_contents($file));
+                echo "<div>$content</div>";
+            } else {
+                echo "<p>まだおすすめ情報はありません。</p>";
+            }
+            ?>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 名古屋市営地下鉄 桜通線 紹介ページ</p>
+    </footer>
+</body>
+</html>
