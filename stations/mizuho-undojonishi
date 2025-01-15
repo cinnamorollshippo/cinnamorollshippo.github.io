@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瑞穂運動場西駅</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>瑞穂運動場西駅</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">ホーム</a></li>
+                <li><a href="../sakura_intro.html">桜通線の紹介</a></li>
+                <li><a href="../merits.html">桜通線を使うメリット</a></li>
+                <li><a href="../stations.html">主な駅の紹介</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h3>アジア競技大会のメイン会場への玄関口</h3>
+                <p>瑞穂運動場西駅は、2026年に開催されるアジア競技大会のメイン会場の一つ、瑞穂運動場へのアクセスに便利な駅です。</p>
+                <p>陸上競技やサッカーなど、多彩なスポーツが開催されるこの会場で、アジア中のアスリートが熱い戦いを繰り広げます。桜通線を利用すれば、快適かつスムーズに会場へアクセスできます。</p>
+                <p>大会についての詳細は、公式サイトをご覧ください：
+                    <a href="https://www.aichi-nagoya2026.org/" target="_blank">アジア競技大会 公式サイト</a>
+                </p>
+                <p>スポーツの興奮を間近で体感する特別な機会です。ぜひ桜通線を利用して、アジア競技大会を観戦しに行きませんか？</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 名古屋市営地下鉄 桜通線 紹介ページ</p>
+    </footer>
+</body>
+</html>
